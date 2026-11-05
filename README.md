@@ -54,7 +54,7 @@ LogsGuard/
 4. Copia [`config/.env.example`](config/.env.example) como `.env` en la raíz y
    ajusta las credenciales. Nunca publiques `.env`.
 
-5. Inicia el servidor PHP local cuando exista el punto de entrada:
+5. Inicia el servidor PHP local:
 
    ```bash
    php -S localhost:8000 -t public
@@ -87,10 +87,9 @@ La tabla `audit_logs` almacena:
 
 ## Próximos módulos
 
-1. Bootstrap de la aplicación y fábrica de conexión PDO.
-2. Repositorio de logs con filtros parametrizados.
-3. Dashboard con estadísticas y paginación.
-4. Pruebas automatizadas y configuración de calidad.
+1. Extraer el repositorio de logs y las consultas del controlador.
+2. Añadir tarjetas de estadísticas al dashboard.
+3. Incorporar paginación y pruebas automatizadas.
 
 ## Licencia
 
